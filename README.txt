@@ -24,7 +24,7 @@ protocols = ["http://",
              "http://www.",
              "https://www."]
 
-It will also take care of redirects and inform you about them with a flag {redirected: True} and {to: link}
+It will also take care of redirects and inform you about them with a flag {redirected: True} and {to: link}. If the url doesn't respond (4xx or 5xx), the out will be {error: True}
 
 The output is a csv file nicely sorted by domain name for all links
 domain,url,redirect,to,error,content-security-policy,x-frame-options,x-xss-protection,x-content-type-options,referrer-policy
@@ -37,5 +37,5 @@ Hope you'll find it useful.
 
 # TO DO
 - argparse 
-	* for grabbing all headers, not just the ones mentioned in headers_list (is it even useful?)
+	* for grabbing all headers, not just the ones mentioned in headers_list
 	* for using other file than domains.txt
