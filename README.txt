@@ -24,7 +24,9 @@ protocols = ["http://",
              "http://www.",
              "https://www."]
 
-It will also take care of redirects and inform you about them with a flag {redirected: True} and {to: link}. If the url doesn't respond (4xx or 5xx), the flag will be {error: True}
+Adjust TIMEOUT not to miss any responses.
+
+Script will also take care of redirects and inform you about them with a flag {redirected: True} and {to: link}. If the url doesn't respond (4xx or 5xx), the flag will be {error: True}
 
 The output is a csv file nicely sorted by domain name for all links
 domain,url,redirect,to,error,content-security-policy,x-frame-options,x-xss-protection,x-content-type-options,referrer-policy
