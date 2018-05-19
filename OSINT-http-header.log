@@ -1,0 +1,36 @@
+2018-05-19 17:52:22,152 - OSINT-http-headers - INFO - ----------------------
+2018-05-19 17:52:22,152 - OSINT-http-headers - INFO - Domain: github.com, URL: http://github.com
+2018-05-19 17:52:22,397 - OSINT-http-headers - INFO - Response: http://github.com : 301, is_redirect: True, is_permanent_reddirect: True
+2018-05-19 17:52:22,397 - OSINT-http-headers - INFO - Response: http://github.com redirected to: https://github.com/
+2018-05-19 17:52:22,397 - OSINT-http-headers - INFO - Response: http://github.com/ : 301
+2018-05-19 17:52:22,397 - OSINT-http-headers - INFO - ----------------------
+2018-05-19 17:52:22,397 - OSINT-http-headers - INFO - Domain: github.com, URL: https://github.com
+2018-05-19 17:52:22,961 - OSINT-http-headers - INFO - Response: https://github.com : 200, is_redirect: False, is_permanent_reddirect: False
+2018-05-19 17:52:22,961 - OSINT-http-headers - INFO - ----------------------
+2018-05-19 17:52:22,962 - OSINT-http-headers - INFO - Domain: github.com, URL: http://www.github.com
+2018-05-19 17:52:23,207 - OSINT-http-headers - INFO - Response: http://www.github.com : 301, is_redirect: True, is_permanent_reddirect: True
+2018-05-19 17:52:23,207 - OSINT-http-headers - INFO - Response: http://www.github.com redirected to: https://www.github.com/
+2018-05-19 17:52:23,207 - OSINT-http-headers - INFO - Response: http://www.github.com/ : 301
+2018-05-19 17:52:23,207 - OSINT-http-headers - INFO - ----------------------
+2018-05-19 17:52:23,207 - OSINT-http-headers - INFO - Domain: github.com, URL: https://www.github.com
+2018-05-19 17:52:23,674 - OSINT-http-headers - INFO - Response: https://www.github.com : 301, is_redirect: True, is_permanent_reddirect: True
+2018-05-19 17:52:23,674 - OSINT-http-headers - INFO - Response: https://www.github.com redirected to: https://github.com/
+2018-05-19 17:52:23,674 - OSINT-http-headers - INFO - Response: https://www.github.com/ : 301
+2018-05-19 17:52:23,674 - OSINT-http-headers - INFO - ----------------------
+2018-05-19 17:52:23,675 - OSINT-http-headers - INFO - Domain: reddit.com, URL: http://reddit.com
+2018-05-19 17:52:24,096 - OSINT-http-headers - INFO - Response: http://reddit.com : 301, is_redirect: True, is_permanent_reddirect: True
+2018-05-19 17:52:24,096 - OSINT-http-headers - INFO - Response: http://reddit.com redirected to: https://www.reddit.com/
+2018-05-19 17:52:24,096 - OSINT-http-headers - INFO - Response: http://reddit.com/ : 301
+2018-05-19 17:52:24,096 - OSINT-http-headers - INFO - ----------------------
+2018-05-19 17:52:24,096 - OSINT-http-headers - INFO - Domain: reddit.com, URL: https://reddit.com
+2018-05-19 17:52:24,218 - OSINT-http-headers - INFO - Response: https://reddit.com : 301, is_redirect: True, is_permanent_reddirect: True
+2018-05-19 17:52:24,218 - OSINT-http-headers - INFO - Response: https://reddit.com redirected to: https://www.reddit.com/
+2018-05-19 17:52:24,218 - OSINT-http-headers - INFO - Response: https://reddit.com/ : 301
+2018-05-19 17:52:24,218 - OSINT-http-headers - INFO - ----------------------
+2018-05-19 17:52:24,218 - OSINT-http-headers - INFO - Domain: reddit.com, URL: http://www.reddit.com
+2018-05-19 17:52:24,614 - OSINT-http-headers - INFO - Response: http://www.reddit.com : 301, is_redirect: True, is_permanent_reddirect: True
+2018-05-19 17:52:24,614 - OSINT-http-headers - INFO - Response: http://www.reddit.com redirected to: https://www.reddit.com/
+2018-05-19 17:52:24,614 - OSINT-http-headers - INFO - Response: http://www.reddit.com/ : 301
+2018-05-19 17:52:24,614 - OSINT-http-headers - INFO - ----------------------
+2018-05-19 17:52:24,614 - OSINT-http-headers - INFO - Domain: reddit.com, URL: https://www.reddit.com
+2018-05-19 17:52:25,026 - OSINT-http-headers - INFO - Response: https://www.reddit.com : 200, is_redirect: False, is_permanent_reddirect: False
